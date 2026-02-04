@@ -5,7 +5,7 @@
             "cflags!": [ "-fno-exceptions" ],
             "cflags_cc!": [ "-fno-exceptions", '-std=c++23', '-Wextra' ],
             "sources": [
-                "./src/addon/**"
+                "./src/addon/wrap/source.cpp",
             ],
             "include_dirs": [
                 "<!@(node -p \"require('node-addon-api').include\")"

@@ -1,3 +1,3 @@
-import { VFS } from "./src/index.ts"
+import { VFS } from "./src/VFS.ts"
 
-console.log(VFS, VFS.foo)
+console.log(VFS, VFS.foo, VFS.echo("Hello"))
