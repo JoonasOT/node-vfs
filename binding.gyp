@@ -3,7 +3,7 @@
         {
             "target_name": "node-vfs",
             "cflags!": [ "-fno-exceptions" ],
-            "cflags_cc!": [ "-fno-exceptions", '-std=c++23', '-Wextra' ],
+            "cflags_cc!": [ "-fno-exceptions", '-std=c++20', '-Wextra' ],
             "sources": [
                 "./src/addon/wrap/source.cpp",
             ],
