@@ -6,6 +6,8 @@
 #include <windows.h>
 #include <fileapi.h>
 
+// TODO: investigate this madness
+#include <projectedfslib.h>
 
 static std::string createFile() {
     HANDLE handle = CreateFileA(

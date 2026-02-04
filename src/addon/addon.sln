@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36804.6 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "addon", "addon.vcxproj", "{A6F19F6B-D6E7-4BE7-9A15-A613BF42D2C3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wrap", "wrap\wrap.vcxproj", "{7A60F7E7-9467-4CF3-8F63-3D5508215200}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{A6F19F6B-D6E7-4BE7-9A15-A613BF42D2C3}.Release|x64.Build.0 = Release|x64
 		{A6F19F6B-D6E7-4BE7-9A15-A613BF42D2C3}.Release|x86.ActiveCfg = Release|Win32
 		{A6F19F6B-D6E7-4BE7-9A15-A613BF42D2C3}.Release|x86.Build.0 = Release|Win32
+		{7A60F7E7-9467-4CF3-8F63-3D5508215200}.Debug|x64.ActiveCfg = Debug|x64
+		{7A60F7E7-9467-4CF3-8F63-3D5508215200}.Debug|x64.Build.0 = Debug|x64
+		{7A60F7E7-9467-4CF3-8F63-3D5508215200}.Debug|x86.ActiveCfg = Debug|Win32
+		{7A60F7E7-9467-4CF3-8F63-3D5508215200}.Debug|x86.Build.0 = Debug|Win32
+		{7A60F7E7-9467-4CF3-8F63-3D5508215200}.Release|x64.ActiveCfg = Release|x64
+		{7A60F7E7-9467-4CF3-8F63-3D5508215200}.Release|x64.Build.0 = Release|x64
+		{7A60F7E7-9467-4CF3-8F63-3D5508215200}.Release|x86.ActiveCfg = Release|Win32
+		{7A60F7E7-9467-4CF3-8F63-3D5508215200}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
